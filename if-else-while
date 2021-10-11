@@ -1,0 +1,22 @@
+package ejercicios.pkgif.pkgelse.pkgwhile;
+
+public class EjerciciosIfElseWhile {
+
+    public static void main(String[] args) {
+        int calificacionEstudiantes = 0;
+        if (calificacionEstudiantes >=90);
+        System.out.println("A");
+        if (calificacionEstudiantes >=80);
+        System.out.println("B");
+        if (calificacionEstudiantes >=70);
+        System.out.println("C");
+        if(calificacionEstudiantes >=60);
+        System.out.println("D");
+        if(calificacionEstudiantes >=50);
+        System.out.println("E");
+        else
+        System.out.println("F");
+         
+    }
+    
+}
