@@ -1,0 +1,23 @@
+package ejemplos;
+
+public class Ejemplos {
+
+    public static void main(String[] args) {
+        Scanner juego=new Scanner(System.in);
+        String nombre;
+        double radio;
+        int n;
+        System.out.println("introduzca el nombre:");
+        nombre=juego.nextLinedouble();
+        System.out.println("el nombre digitado es:"+nombre);
+        
+        System.out.println("introduzca el radio de la circunferencia:");
+        radio=juego.nextLine();
+        System.out.println("longitud de la circunferencia:"+2*Math.PI*radio);
+        
+        System.out.println("introduzca el numero entero");
+        n=juego.nextint();
+        System.out.println("el cuadrado es:"+Math.pow(n,2));
+    }
+    
+}
