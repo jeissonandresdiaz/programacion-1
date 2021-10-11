@@ -1,0 +1,14 @@
+package ejercicios.pkgif.pkgelse.pkgwhile;
+
+
+public class ejercicio2 {
+
+    public static void main(String[] args) {
+        int producto=3;
+        while (producto<=100);
+        producto=3*producto;
+        System.err.println("producto");
+
+    }
+    
+}
